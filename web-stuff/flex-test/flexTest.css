@@ -1,0 +1,42 @@
+body{
+	background-color: #383838;
+	margin:0;
+}
+
+.childs{
+	position: relative;
+	height: 200px;
+	width: 140px;
+	background-color: #4287f5;
+	display: grid;
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+	margin: 5px
+}
+
+.container{
+	display: flex;
+	width: 450px;
+	flex-wrap: wrap;
+	margin: auto;
+	align-items: center;
+}
+
+@media (min-width: 1280px) {
+	.container{
+		width: 600px
+	}
+}
+
+@media (min-width: 1920px) {
+	.container{
+		width: 1200px
+	}
+}
+
+@media (min-width: 3840px) {
+	.container{
+		width: 2400px
+	}
+}
